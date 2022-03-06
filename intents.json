@@ -1,0 +1,38 @@
+{"intents": [
+    {"tag": "greeting",
+      "patterns": ["Hi", "How are you?", "Is anyone there?", "Hello", "Good day", "What's up?", "Hey", "Greetings"],
+      "responses": [""]},
+    {"tag": "create_note",
+      "patterns": ["Please create a new note", "New note", "Create a note", "I want to create a note"],
+      "responses": [""]},
+    {"tag": "add_item",
+      "patterns": ["I want to add an item", "Add a new item", "Add an item to my shopping list", "New item on my shopping list"],
+      "responses": [""]},
+    {"tag": "show_items",
+      "patterns": ["Show my shopping list", "What are my items?", "What is on my shopping list?"],
+      "responses": [""]},
+    {"tag": "exit",
+       "patterns": ["Goodbye", "Bye", "Stop", "Quit", "I have to go", "I want to quit"],
+       "responses": [""]},
+
+    {"tag": "knock",
+      "patterns": ["Knock, knock"],
+      "responses": [""]},
+    {"tag": "yt",
+      "patterns": ["Search this on youtube", "I want to search on youtube", "Youtube please"],
+      "responses": [""]},
+    {"tag": "google",
+      "patterns": ["Search this on Google", "I want to search on Google", "Google please"],
+      "responses": [""]},
+    {"tag": "christmas",
+      "patterns": ["Is it Christmas yet?", "Is Christmas today?", "Are we on Christmas?"],
+      "responses": [""]},
+    {"tag": "get_daily_news",
+      "patterns": ["Get me the daily news", "Tell me which are the main headlines today", "What are the news?"],
+      "responses": [""]},
+    {"tag": "get_holidays",
+      "patterns": ["When will the next holidays take place?", "What are the next holidays?", "What are the holidays for this year?"],
+      "responses": [""]}
+  ]
+}
+  
